@@ -13,6 +13,5 @@ jobs:
      - run: echo "Job's status is ${{ job.status }}"
      - name: Cat README File
        run: |
-         Print README.md
          cat README.md
         
