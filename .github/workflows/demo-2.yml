@@ -13,5 +13,5 @@ jobs:
      - run: echo "Job's status is ${{ job.status }}"
      - name: Cat README File
        run: |
-         cat ${{github.workspace.README}}
+         cat ${{github.workspace.README.md}}
         
